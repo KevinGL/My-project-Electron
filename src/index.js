@@ -1,6 +1,5 @@
-//import App from "./App.js";
+import App from "./App.js";
 
 //console.log("index.js");
 
-//document.body.innerHTML = "<h1>Salut</h1>";
-//<App />
+document.querySelector("#aa").innerHTML = "<h1>Salut</h1>";
