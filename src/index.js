@@ -1,5 +1,10 @@
 import App from "./App.js";
 
-//console.log("index.js");
+export default function index()
+{
+    return(
+        <App name="kevin" age="34" />
+    )
+}
 
-document.querySelector("#aa").innerHTML = "<h1>Salut</h1>";
+document.body.innerHTML = index();
